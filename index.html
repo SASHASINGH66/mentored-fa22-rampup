@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
     <head id="header">
+        <style>
+            h1 {text-align: center;}
+            p {text-align: center;}
+        </style>
         <!-- Connects base.css to base.html -->
         <link href="./styles.css" rel="stylesheet" />
         <!-- Connects base.js to base.html -->
         <script src="script.js"></script>
     </head>
-        <h1>Header 1</h1>
-        <h2>Header 2</h2>
-        <h3>Header 3</h3>
+        <h1>Match the song to the album cover!</h1><br><br>
         <div>
-            <p class="text">This is the beginning of Mentored!</p>
-            <p class="text">I am super excited!!!</p>
+            <p class="text">This is where</p>
+            <p class="text">the song lyrics will appear</p>
         </div>
     <body id="body">
         <div class="flex-container">
-            <a href="https://codebase.berkeley.edu">Press here to go to Codebase Website</a>
-            <img class="image" src="https://codebase.berkeley.edu/static/238f7857e162c32b372ec34e5e68b6ff/8dcbd/cb-logo-black.png">
-            <img class="image" src="https://larynqi.com/assets/img/denero-crop-2.PNG">
-            <iframe id="iframe" src="https://larynqi.com" title="description"></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <img class="image" src="Favourite_Worst_Nightmare.jpeg">
+            <img class="image" src="Suckitandsee.jpg">
+            <img class="image" src="tbhc.webp">
         </div>
-        <div class="interactive">
-            <center>
-                <button class="button" onclick="alert('this is the inline js way – dont do this way !!! 😡');">Press</button>
-                <button class="button" id="my-id" onclick="myFunction()">Press me 2</button>
-            </center>
+        
+        <div class="interactive">  
+        <button class="button" id="first" onclick="myFunction()">This one</button>
+        <button class="button" id="second" onclick="myFunction()">Or is it this</button>
+        <button class="button" id="third" onclick="myFunction()">Or maybe this!</button>
+            
         </div>
         <center>
             <form class="form" onsubmit="submit();">
