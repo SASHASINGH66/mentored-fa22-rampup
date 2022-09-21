@@ -10,10 +10,7 @@
         <!-- Connects base.js to base.html -->
         <script src="script.js"></script>
     </head>
-        <h1>Match the song to the album cover!</h1><br><br>
-        <div>
-            <p class="text">Four out of five</p>
-        </div>
+        <h1>Which album was the most successful?</h1><br><br>
     <body id="body">
         <div class="flex-container">
             <img class = "image" id="image1">
@@ -30,6 +27,19 @@
         <button class="button" id="third" onclick="myFunction()">Or maybe this!</button>
             
         </div>
+
+        <center>
+            <form class="form" onsubmit="submit();">
+                <label>time period</label>
+                <select name="period" id="period">
+                    <option value="80s">80s</option>
+                    <option value="90s">90s</option>
+                    <option value="2000s">2000s</option>
+                    <option value="2010s">2010s</option>
+                </select>
+
+            </form>
+        </center>
 
     </body>
 </html>
