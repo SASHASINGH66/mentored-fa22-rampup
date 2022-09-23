@@ -8,6 +8,11 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .flex-container {
     /* to use flexbox, must have the display:flex line */
     display:flex;
@@ -41,6 +46,18 @@ h1{
     height: 3vw;
     width:10vw;
     margin: 60px;
+    color: #6495ed;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.pick{
+    background-color: white;
+    outline: white;
+    font-family:Arial, Verdana, sans-serif;
+    height: 3vw;
+    width:10vw;
     color: #6495ed;
     font-size: 15px;
     font-weight: bold;
