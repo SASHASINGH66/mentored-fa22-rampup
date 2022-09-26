@@ -52,6 +52,18 @@ p{
     border: 1px solid white;
 }
 
+.button2{
+    background-color: white;
+    outline: white;
+    font-family:Arial, Verdana, sans-serif;
+    height: 3vw;
+    width:10vw;
+    color: #6495ed;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
 .pick{
     background-color: white;
     outline: white;

@@ -35,7 +35,10 @@ function myFunction() {
   element3.style.borderColor = "#FF0000";
   var snd = new Audio(most_popular_sounds[random]);
   snd.play();
-  document.getElementById("refresh").innerHTML = "Refresh the page to play again!"
+}
+
+function refresh(){
+  location.reload();
 }
 
 
